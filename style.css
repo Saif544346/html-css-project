@@ -1,0 +1,96 @@
+*{
+    margin: 0;  
+    padding: 0;
+    /* remove default margin padding in web page */
+}
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    padding: 25px;
+}
+.profile{
+    height: 120px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: left;
+
+
+}
+.headerbio{
+    float: left;
+    padding: 37px;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: gold;
+    
+}
+.contact a:hover{
+    background-color: brown;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: 3px solid gold;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.student{
+    font-size: 20px;
+    color: white;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+p{
+    font-size: 20px;
+    color: whitesmoke;
+    text-transform: lowercase;
+}
+p::selection{
+    background-color: brown;
+}
+.profile{
+    opacity: 0.4;
+}
+.profile:hover{
+    opacity: 1;
+}
+.foot{
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+}
+.marque{
+    color:white;
+    background-color: black;
+}
+.for{
+    height: 50px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.xx{
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+}
